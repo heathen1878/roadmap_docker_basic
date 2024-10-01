@@ -17,6 +17,13 @@ docker run basic
 ```
 
 ```text
-
-
+$dom in ../roadmap_docker_basic on  main [ 📝  🕵️ ] 
+15s bash $ ➜ sudo docker run basic
+Hello Captain!
 ````
+
+```text
+$dom in ../roadmap_docker_basic on  main [ 📝 ] 
+1s bash $ ➜ sudo docker run basic
+Hello Dom!
+```
