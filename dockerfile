@@ -1,7 +1,5 @@
 FROM alpine:latest
 
-ARG NAME="Captain"
+ENV NAME="Captain"
 
-RUN echo "Hello ${NAME}!" > /tmp/hello.txt
-
-ENTRYPOINT [ "cat", "./tmp/hello.txt" ]
+ENTRYPOINT [ "sh", "-c", "echo Hello $NAME!" ]
