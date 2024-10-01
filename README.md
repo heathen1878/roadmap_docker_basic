@@ -6,14 +6,14 @@ This project contains a dockerfile which can take an argument to customise the o
 
 ```shell
 docker build -t basic:latest .
-
-#or
-
-docker build -t basic:latest --build-arg NAME="Dom"
 ```
 
 ```shell
 docker run basic
+
+#or 
+
+docker run -e NAME=Dom basic
 ```
 
 ```text
